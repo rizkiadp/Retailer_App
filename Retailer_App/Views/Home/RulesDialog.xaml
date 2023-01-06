@@ -1,0 +1,25 @@
+﻿<Window x:Class="Retailer_App.Views.Home.RulesDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Retailer_App.Views.Home"
+        mc:Ignorable="d"
+        Title="RulesDialog" Height="457" Width="558">
+    <Grid>
+        <TextBlock TextWrapping="Wrap" Text="Menu" FontSize="18" FontWeight="Bold" Margin="10,10,482,407"/>
+        <TextBlock TextWrapping="Wrap" Text="User" FontWeight="Bold" Margin="264,16,228,400"/>
+        <TextBox TextWrapping="Wrap" Text="TextBox" Margin="306,16,10,407"/>
+        <Menu Margin="10,46,205,10">
+            <CheckBox Content="User View" Checked="CheckBox_Checked" Height="15"/>
+        </Menu>
+        <CheckBox Content="Inventories" Margin="17,65,455,361"/>
+        <CheckBox Content="Inventory" Margin="39,85,433,341"/>
+        <CheckBox Content="Stock" Margin="39,105,433,321"/>
+        <CheckBox Content="Product" Margin="39,125,433,301"/>
+        <CheckBox Content="Backup Database" Margin="20,145,425,281"/>
+        <Button Content="CLOSE" Margin="376,378,17,10" FontWeight="Bold"/>
+        <Button Content="SAVE" Margin="376,311,17,77" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
